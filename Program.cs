@@ -1,4 +1,10 @@
+using Microsoft.Extensions.Hosting;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure the application to run as a Windows Service
+builder.Host.UseWindowsService();
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World! This is the main page.");
