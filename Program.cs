@@ -5,6 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Configure the application to run as a Windows Service
 builder.Host.UseWindowsService();
 
+// Add this line to configure the application to listen on all network interfaces
+builder.WebHost.ConfigureKestrel(serverOptions => serverOptions.ListenAnyIP(5000));
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World! This is the main page.");

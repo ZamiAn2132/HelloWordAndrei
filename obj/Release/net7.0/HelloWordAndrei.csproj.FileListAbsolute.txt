@@ -23,11 +23,6 @@ C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\obj\Release\net7.0\
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\obj\Release\net7.0\HelloWordAndrei.pdb
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\obj\Release\net7.0\HelloWordAndrei.genruntimeconfig.cache
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\obj\Release\net7.0\ref\HelloWordAndrei.dll
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\app-publish\web.config
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\app-publish\appsettings.Development.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\app-publish\appsettings.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\app-publish\HelloWordAndrei.deps.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\app-publish\HelloWordAndrei.runtimeconfig.json
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\Microsoft.Extensions.Hosting.dll
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\Microsoft.Extensions.Hosting.WindowsServices.dll
@@ -37,13 +32,3 @@ C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\runtimes\win\lib\net7.0\System.ServiceProcess.ServiceController.dll
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\obj\Release\net7.0\HelloWordAndrei.csproj.AssemblyReference.cache
 C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\obj\Release\net7.0\HelloWordAndrei.csproj.CopyComplete
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\app-publish\web.config
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\web.config
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\app-publish\appsettings.Development.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\app-publish\appsettings.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\app-publish\HelloWordAndrei.deps.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\app-publish\HelloWordAndrei.runtimeconfig.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\appsettings.Development.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\appsettings.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\HelloWordAndrei.deps.json
-C:\Users\Andrei\Desktop\ZapucAndrei-Eurofins\HelloWordAndrei\bin\Release\net7.0\publish\HelloWordAndrei.runtimeconfig.json
