@@ -1,33 +1,38 @@
-name: .NET
+name: .NET  # this is just the name used 
 
-on:
+on:  # here I defined the triggers 
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
 
-jobs:
-  build:
+jobs: # here we have just a single job that is named build.
+  build: # in the build we have multiple steps 
     runs-on: ubuntu-latest
 
-    steps:
+    steps: # Check out the repository code at the commit that triggered the workflow.
     - name: Checkout code
       uses: actions/checkout@v2
 
+      # Setting up the .NET SDK, specifying that a version of 7.0.x should be used.
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 7.0.x
 
+
+        # Restore the dependencies required by the .NET project simple HelloWord so not so much dependencies.
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build
-      run: dotnet build --no-restore
+    - name: Build  # builds the .NET project
+      run: dotnet build --no-restore # and here  --no-restore flag is used since dependencies have already been restored in the previous step
 
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Test #This command runs the tests in the .NET project
+      run: dotnet test --no-build --verbosity normal #The --no-build flag is used because the project has already been built, and --verbosity normal sets the verbosity level of the test output
 
+      #This step uses the actions/upload-artifact action to upload artifacts from the workflow.
+      #The artifacts will be uploaded with the name "my-app-artifacts"
     - name: Publish Artifacts
       uses: actions/upload-artifact@v2
       with:
